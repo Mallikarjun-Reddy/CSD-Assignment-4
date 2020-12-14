@@ -21,7 +21,13 @@ def del_node(node, delnum):
     """
     ??? Write what needs to be done ???
     """
-    pass
+    head = node
+    if node.val == delnum:
+        return node.next
+    while node.next.val != delnum:
+        node = node.next
+    node.next = node.next.next
+    return head
 
 
 # DO NOT TOUCH THE BELOW CODE

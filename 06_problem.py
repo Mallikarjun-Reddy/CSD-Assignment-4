@@ -31,7 +31,6 @@ def encoding_to_dict(s):
         d[ord(s[i])] = [temp[s[i]], s.count(s[i])]
     return(d)
 
-
 class TestEncodeToDict(unittest.TestCase):
 
     def test_01(self):

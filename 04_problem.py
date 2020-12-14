@@ -46,6 +46,5 @@ class TestDecodeBaseThree(unittest.TestCase):
 
         self.assertEqual(decode_base_three(l), output_nums)
 
-
 if __name__ == '__main__':
     unittest.main(verbosity=2)

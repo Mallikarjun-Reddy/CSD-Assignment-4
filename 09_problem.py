@@ -29,7 +29,11 @@ def search_linked_list(node, sk):
     """
     ??? Write what needs to be done ???
     """
-    pass
+    i = 1
+    while node:
+        if node.val == sk: return i
+        node = node.next
+        i+=1
 
 
 class TestSearchLinkedList(unittest.TestCase):

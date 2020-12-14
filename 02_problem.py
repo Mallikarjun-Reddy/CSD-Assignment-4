@@ -66,7 +66,6 @@ class LLNode:
 
 # DO NOT TOUCH THE BELOW CODE
 
-
 def llcreation(ll, num):
     nn = LLNode(num)
     while ll.next != None:

@@ -48,20 +48,20 @@ class TestWinningBosses(unittest.TestCase):
         fighters = [0, 1, 1]
         bosses = [[0, 0, 0], [0, 0, 1], [0, 1, 1], [1, 1, 1]]
         ans = [[0, 1, 1], [1, 1, 1]]
-        self.assertEqual(winning_Bosses(fighters, bosses), bosses)
+        self.assertEqual(winning_Bosses(fighters, bosses), ans)
 
     def test_02(self):
         fighters = [0, 1, 1]
         bosses = [[0, 0, 0], [0, 0, 1], [0, 1, 1], [1, 1, 1]]
         ans = [[0, 1, 1], [1, 1, 1]]
-        self.assertEqual(winning_Bosses(fighters, bosses), bosses)
+        self.assertEqual(winning_Bosses(fighters, bosses), ans)
 
     def test_03(self):
         fighters = [0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1]
         bosses = [[0, 0, 0, 0], [0, 0, 1, 1, 1, 1],
                   [0, 1, 1], [1, 1, 1, 1, 1, 1]]
         ans = [[1, 1, 1, 1, 1, 1]]
-        self.assertEqual(winning_Bosses(fighters, bosses), bosses)
+        self.assertEqual(winning_Bosses(fighters, bosses), ans)
 
 
 if __name__ == '__main__':

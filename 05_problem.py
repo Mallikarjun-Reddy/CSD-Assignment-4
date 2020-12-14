@@ -33,7 +33,6 @@ def narcissistic_number(n):
             ans.append(i)
     return ans
 
-
 class NarcissisticNumber(unittest.TestCase):
 
     def test_01(self):

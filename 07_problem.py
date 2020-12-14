@@ -27,7 +27,6 @@ def decode_from_dict(dictionary):
 
     return "".join(ans)
 
-
 # DO NOT TOUCH THE BELOW CODE
 class TestDecodeFromDict(unittest.TestCase):
 

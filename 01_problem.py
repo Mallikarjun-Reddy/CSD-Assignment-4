@@ -38,7 +38,6 @@ def add_maxdigit(nums):
         if int(math.log10(i)+1) == m:
             ans.append(i)
     return sum(ans)
-
 # DO NOT TOUCH THE BELOW CODE
 
 
