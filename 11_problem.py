@@ -19,7 +19,7 @@ import helper_llists as llists
 
 def del_node(node, delnum):
     """
-    ??? Write what needs to be done ???
+     ??? Write what needs to be done ???
     """
     head = node
     if node.val == delnum:

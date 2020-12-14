@@ -9,7 +9,7 @@ def decode_from_dict(dictionary):
     count = 0
     l = list(dictionary.keys())
 
-    for i in range(len(l)):  # count the number of characters to be in a string
+    for i in range(len(l)):   # count the number of characters to be in a string
 
         count = count + dictionary[l[i]][1]
 

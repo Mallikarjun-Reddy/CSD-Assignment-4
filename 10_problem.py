@@ -55,7 +55,7 @@ import helper_llists as llists
 
 def get_on_switches(node):
     """
-    ??? Write what needs to be done ???
+     ??? Write what needs to be done ???
     """
     from math import log2
     output_switches = []

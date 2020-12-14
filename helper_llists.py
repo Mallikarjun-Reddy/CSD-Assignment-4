@@ -45,7 +45,7 @@ class LinkedList:
 
 
 def create_from_dict(data):
-    """Create Linked List From Dictionary"""
+     """Create Linked List From Dictionary"""
 
     new_linked_list = LinkedList(data["val"])
 
